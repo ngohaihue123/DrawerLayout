@@ -3,33 +3,63 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/add"
+            android:icon="@drawable/ic_icon_add"
+            android:title="Thêm báo" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/addcm"
+            android:icon="@drawable/ic_icon_add_cm"
+            android:title="Thêm chuyên mục" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:iconTintMode="add"
+            android:id="@+id/edt"
+            android:icon="@drawable/ic_iconedt"
+            android:title="Sửa báo đã chọn" />
+
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/size"
+            android:icon="@drawable/ic_size"
+            android:title="Chọn kich thước" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Báo khác">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/sohaNews"
+                android:icon="@drawable/ic_soha"
+                android:title="Soha News" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/kenh14"
+                android:icon="@drawable/ic_kenh14"
+                android:title="Kênh 14" />
+            <item
+                android:id="@+id/afamily"
+                android:icon="@drawable/ic_afamily"
+                android:title="Afamily" />
+            <item
+                android:id="@+id/genk"
+                android:icon="@drawable/ic_genk"
+                android:title="gamek" />
+        </menu>
+    </item>
+    <item android:title="Ứng dụng">
+        <menu>
+            <item
+                android:id="@+id/muaChung"
+                android:icon="@drawable/ic_muachung"
+                android:title="Mua chung" />
+            <item
+                android:id="@+id/sohaPhim"
+                android:icon="@drawable/ic_sohaphim"
+                android:title="Soha Phim" />
+        </menu>
+    </item>
+    <item android:title="Pega">
+        <menu>
+            <item
+                android:id="@+id/huongDan"
+                android:icon="@drawable/ic_huongdan"
+                android:title="Hướng Dẫn" />
         </menu>
     </item>
 
