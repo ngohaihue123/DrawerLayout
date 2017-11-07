@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="@drawable/side_nav_bar"
-    android:gravity="bottom"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ic_user_background"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:id="@+id/imageView"
+   <intent.project.creators.com.drawerlayout.ui.RoundedImageView
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:id="@+id/imageView"
+       android:layout_alignParentLeft="true"
+       android:src="@drawable/ic_no_user"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="25dp"
+       android:layout_marginLeft="5dp"
+       />
+    <TextView
+        android:layout_alignParentLeft="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Android Studio"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-    <TextView
-        android:id="@+id/textView"
+        android:text="ngohaihue96@gmail.com"
+        android:id="@+id/textview"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#d9d9d9"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:drawableBottom="@drawable/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="android.studio@android.com" />
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:text="Thoát"
 
-</LinearLayout>
+
+        />
+
+
+
+</RelativeLayout>
